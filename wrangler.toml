@@ -1,0 +1,4 @@
+name = "babel-fish-ws"
+main = "src/worker.js"
+compatibility_date = "2024-04-13"
+workers_dev = true
