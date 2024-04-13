@@ -4,9 +4,9 @@ compatibility_date = "2024-04-13"
 workers_dev = true
 
 [[durable_objects.bindings]]
-name = "WEBSOCKET_HIBERNATION_SERVER"
-class_name = "WebSocketHibernationServer"
+name = "chats"
+class_name = "Chat"
 
 [[migrations]]
-tag = "v1"
-new_classes = ["WebSocketHibernationServer"]
+tag = "v2"
+renamed_classes = [{ from = "WebSocketHibernationServer", to = "Chat" }]
